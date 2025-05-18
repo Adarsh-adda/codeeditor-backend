@@ -26,8 +26,8 @@ SECRET_KEY = 'django-insecure-t6js&_0kcc2x2rn(^f)s$g5ge#3ghq$w338ev!qr11a(bynu5k
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['codeeditor-backend-pv8r.onrender.com']
-
+ALLOWED_HOSTS = ['*']
+CORS_ALLOWED_ORIGINS = ['https://*']
 
 # Application definition
 
