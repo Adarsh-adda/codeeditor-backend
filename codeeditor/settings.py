@@ -28,7 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 CORS_ALLOWED_ORIGINS = ['https://*']
-CSRF_TRUSTED_ORIGINS = ['https://codeeditor-backend-pv8r.onrender.com, https://draknow.me, https://www.draknow.me','https://codeeditor.draknow.me' ]
+CSRF_TRUSTED_ORIGINS = ['https://codeeditor-backend-pv8r.onrender.com, https://draknow.me, https://www.draknow.me','https://codeeditor.draknow.me','https://codeeditor-backend-blush.vercel.app' ]
 
 # Application definition
 
